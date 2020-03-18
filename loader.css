@@ -1,0 +1,73 @@
+body{
+	background-color: #e7e1eb;
+}
+.loader{
+	margin:100px auto;
+	margin-top: 300px;
+	width:250px;
+	height: 100px;
+	text-align: center;
+	font-size:10px;
+}
+.loader > div{
+	background-color: #2b133d;
+	height:100%;
+	width:10px;
+	display:inline-block;
+	animation: stretch 1.2s infinite ease-in-out;
+
+}
+
+.loader .bar1{
+	border: solid white;
+	border-width: 5px;
+	animation-delay: -1.1s;
+}
+
+.loader .bar2{
+	border: solid white;
+	border-width: 5px;
+	animation-delay: -0.9s;
+}
+
+.loader .bar3{
+	border: solid white;
+	border-width: 5px;
+	animation-delay: -0.8s;
+}
+
+.loader .bar4{
+	border: solid white;
+	border-width: 5px;
+	animation-delay: -0.7s;
+}
+
+.loader .bar5{
+	border: solid white;
+	border-width: 5px;
+	animation-delay: -0.6s;
+}
+
+.loader .bar6{
+	border: solid white ;
+	border-width: 5px;
+	animation-delay: -0.5s;
+}
+
+.loader .bar7{
+	border: solid white;
+	border-width: 5px;
+	animation-delay: -0.6s;
+}
+
+
+@keyframes stretch{
+	0%,40%,100%{
+		transform: scaleY(0.4);
+		opacity:0.1;
+	}
+	20%{
+		transform: scaleY(1.0);
+		opacity:1;
+	}
+}
