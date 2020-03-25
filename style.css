@@ -1,0 +1,167 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	height:100%;
+	width:100%;
+}
+
+.nav-item{
+	font-weight: bolder;
+	font-family: 'Satisfy',Monospace!important;
+	font-size: 27px;
+
+}
+.nav-item:hover{
+	font-size: 32px;
+	transform:scale(3,3,3);
+}
+#HSection{
+	position:absolute;
+	top: 50%;left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.fa-circle{
+	color:rgba(0,0,0,0.7) !important;
+}
+.icon{
+	color:chartreuse!important;
+}
+.nav-link:hover{
+	color: #408000!important;
+}
+.navbar{
+	border-bottom:solid #0d1a00;
+	border-width: 2px;
+}
+#particles-js{
+   height: 100vh;
+  min-width: 270px;
+  display: flex;
+  background-repeat: repeat;
+  background-size: cover;
+ 
+}
+
+#profile{
+	opacity: 3;
+	display: block;
+	margin: auto;
+	height:250px;
+	min-width:250px;
+	border-radius:50%;
+	border:solid  #408000;
+	border-width: 5px; 
+	box-shadow: 5px 10px 20px #408000;
+
+}
+h1{
+	font-weight: bolder;
+	font-family: 'Lobster',Monospace!important;
+	font-size: 35px;
+	color:  #0d1a00;
+	letter-spacing: 2px;
+}
+p {
+	font-size:25px;
+	font-weight: bolder; 
+	color:#408000;
+	font-family: Monospace;
+	text-decoration: none;
+
+}
+#resume{
+	font-size:25px;
+	font-weight: bolder; 
+	color:chartreuse;
+	font-family: 'Satisfy';
+	text-shadow: 0 0 5px black !important;
+	opacity:1!important;
+}
+.btn{
+	background: rgba(0, 0, 0,0.7);
+	border-radius: 10%;
+}
+.btn:hover{
+	background:#408000;
+}
+#resume:hover{
+	color:whitesmoke;
+}
+#Home{
+	border:solid #0d1a00;
+	border-width:2px;
+}
+#Skills{
+	height:auto;
+	min-width:250px;
+	background:  #264d00;
+	text-align: center;
+}
+#Skills>.container{
+	height:auto;
+	width:80%;
+	background: #1a3300!important;
+	box-shadow: 5px 10px 20px rgba(0,0,0,0.7);
+	border-radius: 20%;
+}
+h2{
+	font-weight: bolder;
+	color: #66cc00;
+	font-family: 'Lobster',Monospace;
+
+}
+#Skills h3{
+	color: whitesmoke;
+	font-weight: bolder;
+	font-family: 'Satisfy',Monospace;
+
+}
+#Skills h4{
+	color: whitesmoke;
+	font-weight: bolder;
+	font-family: 'Satisfy',Monospace;
+
+}
+.progress{
+	background: rgba(200,200,200,0.1);
+	border-radius: 20%;
+	margin:auto;
+	width:80%;
+}
+.progress-bar {
+    background-color:#66cc00;
+    color:whitesmoke;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(135deg, #0d1a00 25%, transparent 25%, #0d1a00 50%, #0d1a00 75%, transparent 75%);
+    background-size: 10px 8px;
+    border-radius: 30%;
+}
+#Education{
+	height:auto;
+	min-width:250px;
+	text-align: center;
+	border:solid #0d1a00;
+	border-width:2px;
+}
+#Education >.container{
+	height:500px;
+}
+.row{
+	height: auto!important;
+}
+#Education  h3{
+	color:#408000;
+	font-weight: bolder;
+	font-family: 'Satisfy',Monospace;
+
+}
+.card{
+	box-shadow: 5px 10px 20px #408000!important;
+	display: flex;
+}
