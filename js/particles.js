@@ -33,7 +33,7 @@ var pJS = function(tag_id, params){
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#ff0000'
+          color: '#1e0033'
         },
         polygon: {
           nb_sides: 5
@@ -77,7 +77,7 @@ var pJS = function(tag_id, params){
         direction: 'none',
         random: false,
         straight: false,
-        out_mode: 'out',
+        out_mode: 'bounceParticles',
         bounce: false,
         attract: {
           enable: false,
@@ -92,7 +92,7 @@ var pJS = function(tag_id, params){
       events: {
         onhover: {
           enable: true,
-          mode: ['grab','bubble']
+          mode: 'grab'
         },
         onclick: {
           enable: true,
@@ -102,32 +102,30 @@ var pJS = function(tag_id, params){
       },
       modes: {
         grab:{
-          distance: 400,
+          distance: 100,
           line_linked:{
-            opacity: 0.7
+            opacity: 1
           }
         },
         bubble:{
-          distance: 600,
-          size: 12,
-          duration: 1,
-          opacity:0.8,
-          speed:2
+          distance: 200,
+          size: 80,
+          duration: 0.4
         },
         repulse:{
-          distance: 400,
+          distance: 200,
           duration: 0.4
         },
         push:{
-          particles_nb: 20
+          particles_nb: 4
         },
         remove:{
-          particles_nb: 10
+          particles_nb: 2
         }
       },
       mouse:{}
     },
-    retina_detect: true,
+    retina_detect: false,
     fn: {
       interact: {},
       modes: {},
