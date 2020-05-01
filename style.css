@@ -10,7 +10,7 @@ body{
 
 .nav-item{
 	font-weight: bolder;
-	font-family: 'Satisfy',Monospace!important;
+	font-family: 'Permanent Marker',Monospace!important;
 	font-size: 27px;
 
 }
@@ -53,7 +53,7 @@ body{
 		background: none;
 		padding:5px 10px;
 		font-size: 20px;
-		font-family: Lobster,Monospace;
+		font-family: 'Special Elite',Monospace;
 		cursor :pointer;
 		color: whitesmoke;
 		transition: 0.8s;
@@ -93,7 +93,7 @@ body{
 }
 #Home h1{
 	font-weight: bolder;
-	font-family: 'Lobster',Monospace!important;
+	font-family: 'Fascinate Inline', Monospace;
 	font-size: 35px;
 	color:  #1e0033;
 	letter-spacing: 2px;
@@ -102,7 +102,7 @@ body{
 	font-size:25px;
 	font-weight: bolder; 
 	color:#0c002b ;
-	font-family: Monospace;
+	font-family: 'Permanent Marker',Monospace;
 	text-decoration: none;
 
 }
@@ -125,15 +125,15 @@ body{
 
 }
 #Skills p,h5{
-	font-weight: bolder;
-	font-family: 'Satisfy',Monospace;
-	font-size: 25px;
+	font-family: 'Fredericka the Great',Monospace;
+	font-size: 20px;
 	color: whitesmoke;
-	opacity:0.86;
-	letter-spacing: 2px;
+	opacity:0.8;
 }
 #Skills h5{
-	text-decoration: underline;
+	font-family: 'Monoton',Monospace;
+	color:#ffa31a;
+	letter-spacing: 2px;
 }
 #Education{
 	background-image: url(images/Education_bg.jpg);
@@ -145,18 +145,24 @@ body{
 	
 }
 #Skills h1{
-	color:whitesmoke;
-	font-family: 'Lobster',Monospace;
+	color:#ffcc00;
+	font-family: 'Fascinate Inline', Monospace;
+
 }
 #Education h1{
 	color:whitesmoke;
-	font-family: 'Lobster',Monospace;
+	font-family: 'Fascinate Inline', Monospace;
 }
 #Education h6,h5,p{
 	color:whitesmoke;
-	font-family: 'Satisfy',Monospace;
+	font-family: 'Fredericka the Great',Monospace;
+	
 }
-
+#Education h5{
+	color:#ffa31a;
+	font-family: 'Monoton',Monospace;
+	letter-spacing: 2px;
+}
 #Education .container .card img{
 	filter: grayscale(100%);
 	width:50%;
@@ -215,7 +221,7 @@ body{
 
 #Education .container .card .face.face2{
     position: relative;
-    background:rgba(30,0,51,0.7);
+    background:rgba(30,0,51,0.9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,14 +246,88 @@ body{
 #Education .container .card .face.face2 .content a{
     display:  inline-block;
     text-decoration: none;
-    color:whitesmoke;
-    font-family: 'Satisfy',Monospace;
-    border: 1px solid whitesmoke;
+    color:#ffa31a;
+    font-family: 'Special Elite',Monospace;
+    font-weight: 900;
+    border: 1px solid #ffa31a;
 }
 
 
 #Education .container .card .face.face2 .content a:hover{
 	color: #2d004d;
 	border:1px solid #2d004d;
+	background:#ffa31a;
+}
+#Skills a{
+	font-weight: 900;
+	margin:auto;
+    display:  inline-block;
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: 'Special Elite',Monospace;
+    border: 2px solid whitesmoke;
+}
+
+
+#Skills a:hover{
+	color: #2d004d;
+	border:1px solid #2d004d;
 	background:whitesmoke;
+}
+
+#Projects{
+	background:url(images/Projects_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+#Projects h1{
+	color:#ffcc00;
+	font-family: 'Fascinate Inline', Monospace;
+
+}
+#Projects h6{
+	font-family: 'Monoton', Monospace;
+	letter-spacing: 1px;
+	color:#ffa31a;
+	font-weight: 1000;
+}
+#Projects p{
+	font-family: 'Fredericka the Great', Monospace;
+	font-weight: 1000;
+
+
+}
+#Projects .card{
+	height:400px;
+	box-shadow: 3px 5px 10px #b54dff;
+}
+#Projects .card-img-overlay{
+	background:rgba(30,0,51,0.9);
+}
+#Projects .card-img-overlay{
+	opacity:0;
+	transition:1s;
+}
+#Projects .card-img-overlay:hover{
+	opacity:1;
+}
+#Projects .card:hover .title{
+	opacity:0;
+}
+#Project .card:hover{
+	transform: scale(1.5);
+}
+#Projects a{
+	color:#ffa31a;
+	border:1px solid #ffa31a;
+	font-family: 'Fredericka the Great', Monospace;
+	font-weight: 1000;
+
+}
+#Projects a:hover{
+	background: #ffa31a;
+	color:#0f001a;
+	border:1px solid #0f001a;
 }
