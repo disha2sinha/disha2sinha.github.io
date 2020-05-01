@@ -128,11 +128,10 @@ body{
 	font-family: 'Fredericka the Great',Monospace;
 	font-size: 20px;
 	color: whitesmoke;
-	opacity:0.8;
 }
 #Skills h5{
 	font-family: 'Monoton',Monospace;
-	color:#ffa31a;
+	color:#ffcc00;
 	letter-spacing: 2px;
 }
 #Education{
@@ -159,7 +158,7 @@ body{
 	
 }
 #Education h5{
-	color:#ffa31a;
+	color:#ffcc00;
 	font-family: 'Monoton',Monospace;
 	letter-spacing: 2px;
 }
