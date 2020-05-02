@@ -1,3 +1,6 @@
+
+
+
 const words = ["| MACHINE LEARNING ENTHUSIAST |", "| FRONT-END WEB DEVELOPER |", "| A PROGRAMMER BY PASSION |","| OPEN-SOURCE CONTRIBUTER |"];
 let i = 0;
 let timer;
@@ -37,3 +40,31 @@ function deletingEffect() {
 };
 
 typingEffect();
+window.onload=function(){
+var mySwiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            autoplay: true,
+            speed: 2000,
+            loop: true,
+            centeredSlides: true,
+            slidesPerView: 2,
+            initialSlide: 3,
+            keyboardControl: true,
+            mousewheelControl: true,
+            lazyLoading: true,
+            preventClicks: false,
+            preventClicksPropagation: false,
+            lazyLoadingInPrevNext: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            coverflow: {
+              rotate: 50,
+              stretch: 0,
+              depth: 250,
+              modifier: 1,
+              slideShadows : false,
+            }
+});
+mySwiper.update();
+
+};
