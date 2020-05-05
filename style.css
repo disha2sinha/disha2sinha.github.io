@@ -11,12 +11,12 @@ body{
 .nav-item{
 	font-weight: bolder;
 	font-family: 'Permanent Marker',Monospace!important;
-	font-size: 27px;
+	font-size: 20px;
 
 }
 .nav-item:hover{
-	font-size: 32px;
-	transform:scale(3,3,3);
+	font-size: 25px;
+	transform:scale(1.2,1.2,1.2);
 }
 #HSection{
 	position:absolute;
@@ -25,19 +25,19 @@ body{
 	text-align: center;
 }
 nav .fa-circle{
-	color:whitesmoke!important;
-	border:3px double #2d004d;
-	border-radius: 60%;
+	color:#ffa31a!important;
 }
 nav .icon{
-	color:#3b0066!important;
+	color:whitesmoke!important;
+}
+.nav-link{
+	color:#ffa31a!important;
 }
 .nav-link:hover{
-	color:#2d004d!important;
+	color:whitesmoke!important;
 }
 .navbar{
-	border-bottom:solid #2d004d;
-	border-width: 2px;
+	background:rgba(31,0,56,0.8)!important;
 }
 #particles-js{
    height: 100vh;
@@ -53,9 +53,9 @@ nav .icon{
 		background: none;
 		padding:5px 10px;
 		font-size: 20px;
-		font-family: 'Special Elite',Monospace;
+		font-family: 'Permanent Marker',Monospace;
 		cursor :pointer;
-		color: whitesmoke;
+		color: #ffa31a;
 		transition: 0.8s;
 		overflow: hidden;
 		position: relative;
@@ -110,7 +110,7 @@ nav .icon{
 
 
 #Home{
-	border:solid #0f001a;
+	border-bottom:solid #0f001a;
 	border-width:2px;
 }
 #Skills{
