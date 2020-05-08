@@ -14,6 +14,13 @@ body{
 	font-size: 20px;
 
 }
+.navbar-toggler{
+	background:#ffa31a;
+	border-radius: 50%;
+}
+.navbar-toggler-icon{
+	color:whitesmoke;
+}
 .nav-item:hover{
 	font-size: 25px;
 	transform:scale(1.2,1.2,1.2);
@@ -53,9 +60,9 @@ nav .icon{
 		background: none;
 		padding:5px 10px;
 		font-size: 20px;
-		font-family: 'Permanent Marker',Monospace;
+		font-family: 'Allerta Stencil',cursive;
 		cursor :pointer;
-		color: #ffa31a;
+		color: whitesmoke;
 		transition: 0.8s;
 		overflow: hidden;
 		position: relative;
@@ -67,17 +74,18 @@ nav .icon{
 #resume::before{
 	content:'';
 	position: absolute;
+	top:0;
 	left:0;
+	right:0;
 	width:100%;
-	height:100%;
+	height:180%;
 	background:url(images/Skills_bg.jpg) ;
 	z-index:-1; 
 	transition: 0.8s;
-	bottom:0;
-	border-radius: 50% 0% 50% 0%;
+	border-radius: 30% 30% 30% 30%;
 }
 #resume:hover::before{
-	width:0%;
+	height:0%;
 }
 #profile{
 	opacity: 3;
@@ -93,16 +101,16 @@ nav .icon{
 }
 #Home h1{
 	font-weight: bolder;
-	font-family: 'Fascinate Inline', Monospace;
+	font-family: 'Bungee Shade', cursive;
 	font-size: 35px;
-	color:  #1e0033;
+	color: #e68a00;
 	letter-spacing: 2px;
 }
 #Home p {
 	font-size:25px;
 	font-weight: bolder; 
 	color:#0c002b ;
-	font-family: 'Permanent Marker',Monospace;
+	font-family: 'Orbitron',cursive;
 	text-decoration: none;
 
 }
@@ -124,15 +132,16 @@ nav .icon{
 	box-shadow: 8px 20px 30px #b54dff;
 
 }
-#Skills p,h5{
-	font-family: 'Fredericka the Great',Monospace;
-	font-size: 20px;
+#Skills p{
+	font-family: 'Allerta Stencil',cursive;
+	font-size: 18px;
 	color: whitesmoke;
 }
 #Skills h5{
-	font-family: 'Monoton',Monospace;
+	font-family: 'Black Ops One',Monospace;
 	color:#ffa31a;
 	letter-spacing: 2px;
+	font-size:22px;
 }
 #Education{
 	background-image: url(images/Education_bg.jpg);
@@ -154,12 +163,12 @@ nav .icon{
 }
 #Education h6,h5,p{
 	color:whitesmoke;
-	font-family: 'Fredericka the Great',Monospace;
+	font-family: 'Allerta Stencil',Monospace;
 	
 }
 #Education h5{
 	color:#ffa31a;
-	font-family: 'Monoton',Monospace;
+	font-family: 'Black Ops One',cursive;
 	letter-spacing: 2px;
 }
 #Education .container .card img{
@@ -287,14 +296,12 @@ nav .icon{
 
 }
 #Projects h6{
-	font-family:'Permanent Marker', cursive;
+	font-family:'Black Ops One', cursive;
 	letter-spacing: 1px;
 	color:#ffa31a;
-	font-weight: 1000;
 }
 #Projects p{
-	font-family: 'Fredericka the Great', Monospace;
-	font-weight: 1000;
+	font-family: 'Allerta Stencil', Monospace;
 
 
 }
@@ -323,6 +330,7 @@ nav .icon{
 	border:1px solid #ffa31a;
 	font-family: 'Fredericka the Great', Monospace;
 	font-weight: 1000;
+	box-shadow: 0 0 10px #ffa31a;
 
 }
 #Projects a:hover{
