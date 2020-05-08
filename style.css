@@ -357,12 +357,9 @@ nav .icon{
 	border:1px solid #0f001a;
 }
 #Projects img{
-	width:100%;
-<<<<<<< HEAD
-	height:50%;
-=======
+	width:100%
+	height:50%
 	height:60%;
->>>>>>> 3fc758487684aa0eedb3e60ec4729badbfe0cbc4
 	filter: grayscale(100%);
 }
 
