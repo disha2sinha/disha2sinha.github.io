@@ -7,9 +7,6 @@ body{
 	height:100%;
 	width:100%;
 }
-*:focus{
-	outline: 0!important;
-}
 .nav-item{
 	font-weight: bolder;
 	font-family: 'Permanent Marker',Monospace!important;
@@ -146,18 +143,22 @@ nav .icon{
 	font-size:22px;
 }
 #skills-info{
-	width:100vw;
-	height:100vh;
+	width:90vw;
+	height:90vh;
+	border:5px solid #ffa31a;
+	top:auto;
+	margin: auto;
 	background:url(images/skills_info.jpg);
 	background-size: cover;
 	overflow-y: auto;
     text-align: center;
 }
 .skill-progress{
-	height:80%;
+	height:auto;
 	width:80vw;
 	margin:auto;
 	background-color: rgba(255,255,255,0.6);
+	overflow-x: hidden;
 	overflow-y: auto;
 }
 #skills-info h1{
@@ -167,13 +168,15 @@ nav .icon{
 } 
 .circlechart{
 	font-family: 'Allerta Stencil',cursive;
+	margin-top:5px;
+	margin-bottom: 5px;
 }
 .mfp-close-btn-in .mfp-close {
     color: #ffa31a;
 }
 button.mfp-close, button.mfp-arrow {
     font-size: 60px;
-    color:#1e0033;
+    color:whitesmoke;
 }
 
 .mfp-fade.mfp-bg {
