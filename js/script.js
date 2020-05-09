@@ -68,3 +68,22 @@ var mySwiper = new Swiper('.swiper-container', {
 mySwiper.update();
 
 };
+$(document).ready(function($) {	
+	$('.see-more').magnificPopup({
+		type: 'inline',
+		fixContentPos:true,
+		closeBtnInside: false,
+		preloader: false,
+		removalDelay: 160,
+		mainClass:'mfp-fade'
+	});
+	
+});
+$(function(){
+  $('.circlechart').circlechart({
+  	fill:{color:'black'}
+  });
+});
+
+
+
