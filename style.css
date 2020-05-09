@@ -7,7 +7,9 @@ body{
 	height:100%;
 	width:100%;
 }
-
+*:focus{
+	outline: 0!important;
+}
 .nav-item{
 	font-weight: bolder;
 	font-family: 'Permanent Marker',Monospace!important;
@@ -143,6 +145,78 @@ nav .icon{
 	letter-spacing: 2px;
 	font-size:22px;
 }
+#skills-info{
+	width:100vw;
+	height:100vh;
+	background:url(images/skills_info.jpg);
+	background-size: cover;
+	overflow-y: auto;
+    text-align: center;
+}
+.skill-progress{
+	height:80%;
+	width:80vw;
+	margin:auto;
+	background-color: rgba(255,255,255,0.6);
+	overflow-y: auto;
+}
+#skills-info h1{
+	font-family: 'Bungee Inline',cursive;
+	color: #1e0033;
+	margin:auto;
+} 
+.circlechart{
+	font-family: 'Allerta Stencil',cursive;
+}
+.mfp-close-btn-in .mfp-close {
+    color: #ffa31a;
+}
+button.mfp-close, button.mfp-arrow {
+    font-size: 60px;
+    color:#1e0033;
+}
+
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    transition:0.5s;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    transition: 0.5s;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
+
+#Skills a{
+	margin:auto;
+    display:  inline-block;
+    text-decoration: none;
+    color:#ffa31a;
+    font-size: 20px;
+    font-family: 'Fresca',cursive;
+    border: 2px solid #ffa31a;
+    border-radius: 10px;
+}
+
+
+#Skills a:hover{
+	color: #2d004d;
+	border:1px solid #2d004d;
+	background:#ffa31a;
+}
+
 #Education{
 	background-image: url(images/Education_bg.jpg);
 	background-repeat:no-repeat;
@@ -266,23 +340,6 @@ nav .icon{
 	border:1px solid #2d004d;
 	background:#ffa31a;
 }
-#Skills a{
-	font-weight: 900;
-	margin:auto;
-    display:  inline-block;
-    text-decoration: none;
-    color:whitesmoke;
-    font-size: 20px;
-    font-family: 'Special Elite',Monospace;
-    border: 2px solid whitesmoke;
-}
-
-
-#Skills a:hover{
-	color: #2d004d;
-	border:1px solid #2d004d;
-	background:whitesmoke;
-}
 
 #Projects{
 	background:url(images/Projects_bg.jpg);
@@ -346,8 +403,8 @@ nav .icon{
 #Projects a{
 	color:#ffa31a;
 	border:1px solid #ffa31a;
-	font-family: 'Fredericka the Great', Monospace;
-	font-weight: 1000;
+	font-family: 'Fresca', cursive;
+	font-size: 18px;
 	box-shadow: 0 0 10px #ffa31a;
 
 }
@@ -375,7 +432,7 @@ nav .icon{
 #Certificates a{
 	color:#ffa31a;
 	border:1px solid #ffa31a;
-	font-family: 'Fredericka the Great', Monospace;
+	font-family: 'Fresca', cursive;
 	font-weight: 800;
 
 }
