@@ -1,11 +1,13 @@
 html{
 	scroll-behavior: smooth;
+	overflow-x:hidden;
 }
 body{
 	margin:0;
 	padding:0;
 	height:100%;
 	width:100%;
+	background: #efeeee;
 }
 .nav-item{
 	font-weight: bolder;
@@ -14,8 +16,8 @@ body{
 
 }
 .navbar-toggler{
-	background:#ffa31a;
-	border-radius: 50%;
+	background:#f2f2f2;
+	border:none;
 }
 .navbar-toggler-icon{
 	color:whitesmoke;
@@ -24,26 +26,48 @@ body{
 	font-size: 25px;
 	transform:scale(1.2,1.2,1.2);
 }
-#HSection{
-	position:absolute;
-	top: 50%;left: 50%;
-	transform: translate(-50%,-50%);
+#About{
+	height:auto;
+	width:100vw;
 	text-align: center;
 }
+#About .container{
+	padding:1%;
+background: #f2f2f2;
+animation-name: delayinappear;
+animation-duration: 1.2s;
+animation-direction: right;
+animation-iteration-count: 1;
+line-height: 30px;
+
+}
+
+@keyframes delayinappear{
+	0%{
+		opacity:0;
+	}
+	75%{
+		opacity:0.3;
+	}
+	100%{
+		opacity:1;
+	}
+}
 nav .fa-circle{
-	color:#ffa31a!important;
+	color:#efeeee!important;
 }
 nav .icon{
-	color:whitesmoke!important;
+	color:#595959!important;
 }
 .nav-link{
-	color:#ffa31a!important;
+	color:#f2f2f2!important;
 }
 .nav-link:hover{
 	color:whitesmoke!important;
 }
 .navbar{
-	background:rgba(31,0,56,0.8)!important;
+	background:#f2f2f2!important;
+	border-radius: 15px;
 }
 #particles-js{
    height: 100vh;
@@ -55,75 +79,91 @@ nav .icon{
 }
 
 #resume{
-		border:4px solid #330066;
-		background: none;
-		padding:5px 10px;
 		font-size: 20px;
-		font-family: 'Allerta Stencil',cursive;
-		cursor :pointer;
-		color: whitesmoke;
-		transition: 0.8s;
-		overflow: hidden;
-		position: relative;
-		border-radius:15%;
+		font-family: 'Macondo Swash Caps',cursive;
+		background: linear-gradient(225deg, #505050, #5f5f5f);
+		margin:auto;
+		color: #f2f2f2;
+		height:50px;
+	width:200px;
+	border:none;
+	border-radius:20px;
+	box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
+
+		
 }
 #resume:hover{
-	color:  #1e0033;
+	  box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+
 }
-#resume::before{
-	content:'';
-	position: absolute;
-	top:0;
-	left:0;
-	right:0;
+#About a{
+	color:#f2f2f2;
+}
+#About a:hover{
+	text-decoration: none;
+}
+#headinghr{
+	width:30%;
+    margin: 3px auto;
+    height: 5px;
+    background:linear-gradient(to right,#e6e6e6,#a6a6a6 , #595959, #a6a6a6,#e6e6e6);
+	margin-bottom: 50px;
+	animation-name: delayinappear;
+animation-duration: 1.2s;
+animation-direction: right;
+animation-iteration-count: 1;
+
+}
+#endhr{
+	margin-top:100px;
 	width:100%;
-	height:180%;
-	background:url(images/Skills_bg.jpg) ;
-	z-index:-1; 
-	transition: 0.8s;
-	border-radius: 30% 30% 30% 30%;
-}
-#resume:hover::before{
-	height:0%;
+	height:1px;
+    background:linear-gradient(to right,#e6e6e6,#bfbfbf,#a6a6a6 , #595959, #a6a6a6,#bfbfbf,#e6e6e6);
 }
 #profile{
 	opacity: 3;
-	display: block;
 	margin: auto;
 	height:200px;
 	min-width:200px;
-	border-radius:50%;
-	border:double #1e0033;
-	border-width: 5px; 
-	box-shadow: 5px 10px 20px #4d4d4d;
+	margin-top:20%;
+	border-radius: 131px;
+background: linear-gradient(225deg, #ffffff, #d7d6d6);
+}
+
+#About ul{
+	    padding: 20px 0;
+	    white-space: nowrap;
 
 }
-#Home h1{
+#About ul li{
+	display:inline;
+	color:#595959;
+}
+#About h2{
 	font-weight: bolder;
-	font-family: 'Bungee Shade', cursive;
-	font-size: 35px;
-	color: #e68a00;
+	font-family: 'Ewert', cursive;
+	color:  #595959;
 	letter-spacing: 2px;
 }
-#Home p {
-	font-size:25px;
-	font-weight: bolder; 
-	color:#0c002b ;
-	font-family: 'Orbitron',cursive;
+#About h1{
+	color: #262626;
+	margin-top:100px;
+	font-family: 'Fredericka the great', Monospace;
+
+}
+#About p {
+	font-size:18px; 
+	color:#737373;
+	font-family: 'Fresca',cursive;
 	text-decoration: none;
 
 }
  
-
-
-#Home{
-	border-bottom:solid #0f001a;
-	border-width:2px;
-}
 #Skills{
-	background-image:url(images/Skills_bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
 	text-align:center;
 }
 #Skills .container{
@@ -230,8 +270,9 @@ button.mfp-close, button.mfp-arrow {
 	
 }
 #Skills h1{
-	color:#ffa31a;
-	font-family: 'Fascinate Inline', Monospace;
+	color: #262626;
+	margin-top:100px;
+	font-family: 'Fredericka the great', Monospace;
 
 }
 #Education h1{
