@@ -60,7 +60,7 @@ nav .icon{
 	color:#595959!important;
 }
 .nav-link{
-	color:#f2f2f2!important;
+	color:#595959!important;
 }
 .nav-link:hover{
 	color:whitesmoke!important;
@@ -127,9 +127,8 @@ animation-iteration-count: 1;
 #profile{
 	opacity: 3;
 	margin: auto;
-	height:200px;
-	min-width:200px;
-	margin-top:20%;
+	height:220px;
+	min-width:220px;
 	border-radius: 131px;
 background: linear-gradient(225deg, #ffffff, #d7d6d6);
 }
