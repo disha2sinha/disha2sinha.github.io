@@ -139,6 +139,7 @@ animation-iteration-count: 1;
 	height:270px;
 	width:270px;
 	padding:9px;
+	margin:auto;
 	border-radius: 134px;
 	background: linear-gradient(145deg, #ffffff, #dadada);
 	box-shadow:  15px 15px 77px #a9a9a9, 
