@@ -33,7 +33,7 @@ body{
 }
 #About .container{
 	padding:1%;
-background: #f2f2f2;
+	padding-top: 30vh;
 animation-name: delayinappear;
 animation-duration: 1.2s;
 animation-direction: right;
@@ -81,7 +81,7 @@ nav .icon{
 #resume{
 		font-size: 20px;
 		font-family: 'Macondo Swash Caps',cursive;
-		background: linear-gradient(225deg, #505050, #5f5f5f);
+		background: linear-gradient(225deg, #1f3d7a,  #193366);
 		margin:auto;
 		color: #f2f2f2;
 		height:50px;
@@ -110,8 +110,8 @@ nav .icon{
 	width:30%;
     margin: 3px auto;
     height: 5px;
-    background:linear-gradient(to right,#e6e6e6,#a6a6a6 , #595959, #a6a6a6,#e6e6e6);
-	margin-bottom: 50px;
+    background:linear-gradient(to right,#e6e6e6, #7094db , #193366,  #7094db,#e6e6e6);
+	margin-bottom: 20px;
 	animation-name: delayinappear;
 animation-duration: 1.2s;
 animation-direction: right;
@@ -120,17 +120,27 @@ animation-iteration-count: 1;
 }
 #endhr{
 	margin-top:100px;
+	margin-bottom: 0;
 	width:100%;
 	height:1px;
     background:linear-gradient(to right,#e6e6e6,#bfbfbf,#a6a6a6 , #595959, #a6a6a6,#bfbfbf,#e6e6e6);
 }
+#About .imgbox{
+	height:270px;
+	width:270px;
+	padding:9px;
+	border-radius: 134px;
+	background: linear-gradient(145deg, #ffffff, #dadada);
+	box-shadow:  15px 15px 77px #a9a9a9, 
+             -15px -15px 77px #ffffff;
+}
 #profile{
 	opacity: 3;
 	margin: auto;
-	height:220px;
-	min-width:220px;
+	height:250px;
+	width:250px;
 	border-radius: 131px;
-background: linear-gradient(225deg, #ffffff, #d7d6d6);
+	border:solid 5px #3366cc;
 }
 
 #About ul{
@@ -144,19 +154,19 @@ background: linear-gradient(225deg, #ffffff, #d7d6d6);
 }
 #About h2{
 	font-weight: bolder;
-	font-family: 'Ewert', cursive;
-	color:  #595959;
+	font-family: 'Ranchers', cursive;
+	color:  #1f3d7a;
 	letter-spacing: 2px;
 }
 #About h1{
-	color: #262626;
+	color:   #2e5cb8;
 	margin-top:100px;
 	font-family: 'Fredericka the great', Monospace;
 
 }
 #About p {
 	font-size:15px; 
-	color:#737373;
+	color: #193366;
 	font-family: 'Fresca',cursive;
 	text-decoration: none;
 
@@ -270,7 +280,7 @@ button.mfp-close, button.mfp-arrow {
 }
 #Skills h1{
 	color: #262626;
-	margin-top:100px;
+	margin-top:30px;
 	font-family: 'Fredericka the great', Monospace;
 
 }
