@@ -26,6 +26,17 @@ body{
 	font-size: 25px;
 	transform:scale(1.2,1.2,1.2);
 }
+#Home{
+	height:auto;
+	width:100vw;
+	text-align:center;
+
+}
+#Home .container{
+	padding:1%;
+	padding-top: 30vh;
+	padding-bottom: 30vh;
+}
 #About{
 	height:auto;
 	width:100vw;
@@ -33,7 +44,6 @@ body{
 }
 #About .container{
 	padding:1%;
-	padding-top: 30vh;
 animation-name: delayinappear;
 animation-duration: 1.2s;
 animation-direction: right;
@@ -125,7 +135,7 @@ animation-iteration-count: 1;
 	height:1px;
     background:linear-gradient(to right,#e6e6e6,#bfbfbf,#a6a6a6 , #595959, #a6a6a6,#bfbfbf,#e6e6e6);
 }
-#About .imgbox{
+#Home .imgbox{
 	height:270px;
 	width:270px;
 	padding:9px;
@@ -152,13 +162,13 @@ animation-iteration-count: 1;
 	display:inline;
 	color:#595959;
 }
-#About h2{
+#Home h2{
 	font-weight: bolder;
 	font-family: 'Ranchers', cursive;
 	color:  #1f3d7a;
 	letter-spacing: 2px;
 }
-#About h1{
+#Home h1{
 	color:   #2e5cb8;
 	margin-top:100px;
 	font-family: 'Fredericka the great', Monospace;
