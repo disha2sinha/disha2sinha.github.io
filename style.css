@@ -66,7 +66,7 @@ nav .icon{
 
 /*------------------------------------------------------------------------------Home Section-----------------------------------------------------------------*/
 #Home{
-	height:100vh;
+	height:auto;
 	width:100vw;
 	text-align:center;
 	padding:12%;
@@ -95,9 +95,9 @@ nav .icon{
 	margin:auto;
 	border-radius: 134px;
 	background: linear-gradient(145deg, #ffffff, #dadada);
-	box-shadow:  15px 15px 77px #a9a9a9, 
-             -15px -15px 77px #ffffff;
-}
+box-shadow:  8px 8px 57px #616161, 
+             -8px -8px 57px #ffffff;
+   }
 #profile{
 	opacity: 3;
 	margin: auto;
@@ -375,24 +375,30 @@ button.mfp-close, button.mfp-arrow {
 
 #Education .container .card .face.face2 .content a{
     display:  inline-block;
-    text-decoration: none;
-    color:#ffa31a;
-    font-family: 'Special Elite',Monospace;
-    font-weight: 900;
-    border: 1px solid #ffa31a;
-}
+    font-size: 20px;
+	font-family: 'Macondo Swash Caps',cursive;
+	margin:auto;
+	color: #f2f2f2;
+	height:40px;
+	width:160px;
+	border:none;
+	border-radius:10px;
+	background: #193366;
+	box-shadow: inset 6px 6px 12px #0f1e3c, 
+            inset -6px -6px 12px #234890;
+
+	}
 
 
 #Education .container .card .face.face2 .content a:hover{
-	color: #2d004d;
-	border:1px solid #2d004d;
-	background:#ffa31a;
-}
 
+    background: linear-gradient(315deg, #172e5c, #1b376d);
+	box-shadow:  -13px -13px 32px #0d1a33, 
+             13px 13px 32px #264d99;
+
+}
+/*---------------------------------------------------------------------------Projects Section----------------------------------------------------------------------*/
 #Projects{
-	background:url(images/Projects_bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
 	text-align: center;
 }
 #Projects .tech-stack{
@@ -400,44 +406,69 @@ button.mfp-close, button.mfp-arrow {
 	width:95%;
 }
 #Projects .tech{
-	padding:1%;
-	margin:1%;
+	padding:2%;
+	margin:2%;
 	height:40%;
 	width:auto;
-	color:whitesmoke;
+	color:#193366;
 	font-family: 'Allerta Stencil', Monospace;
-	background:rgba(255, 163, 26,0.8);
+	border-radius: 8px;
+	background: linear-gradient(145deg, #ffffff, #dadada);
+	box-shadow:  5px 5px 10px #888888, 
+             -5px -5px 10px #ffffff;
 	box-sizing: border-box;
-	border-radius:8px;
-
 
 }
-#Projects h1{
-	color:#ffa31a;
-	font-family: 'Fascinate Inline', Monospace;
-
-}
-#Projects h6{
-	font-family:'Black Ops One', cursive;
+#Projects .title{
+	font-family:'Slackey', cursive;
 	letter-spacing: 1px;
-	color:#ffa31a;
+	color:#193366;
 }
+#Projects .card-title{
+	font-family:'Slackey', cursive;
+	letter-spacing: 1px;
+	font-weight: 900;
+	color:#f2f2f2;
+}
+
 #Projects p{
-	font-family: 'Allerta Stencil', Monospace;
+	font-family: 'Fresca', cursive;
 
 
 }
 #Projects .card{
-	height:60vh;
-	box-shadow: 3px 5px 10px rgb(204, 204, 179);
-	background: #333;
+	height:70vh;
+	border:none;
+	border-radius: 40px;
+	background: #f2f2f2;
+	box-shadow: inset 6px 6px 22px #888888, 
+            inset -6px -6px 22px #ffffff;
+    padding: 0;
+}
+@media screen and (max-height: 750px){
+	#Projects .card{
+		height:80vh;
+	}
+}
+
+#Projects .project-content{
+	display: grid;
+	position: absolute;
+	top:50%;
+	left:0;
+	transform: translateY(-50%);
+	margin:3px;
+
 }
 #Projects .card-img-overlay{
-	background:rgb(30,0,51);
-}
-#Projects .card-img-overlay{
+	background:#193366;
+	border-radius: 40px;
+	background: #193366;
+	box-shadow: inset 5px 5px 3px #0a1429, 
+            inset -5px -5px 3px #2852a3;
 	opacity:0;
 	transition: transform 1s ease-out;
+	margin:0;
 }
 #Projects .card-img-overlay:hover{
 	opacity:1;
@@ -449,28 +480,42 @@ button.mfp-close, button.mfp-arrow {
 	transform: scale(1.5);
 }
 #Projects a{
-	color:#ffa31a;
-	border:1px solid #ffa31a;
-	font-family: 'Fresca', cursive;
-	font-size: 18px;
-	box-shadow: 0 0 10px #ffa31a;
+	color:#f2f2f2;
+	text-align: center;
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	background:black;
+	justify-content: center;
+	margin:auto;
+	background: linear-gradient(145deg, #1b376d, #172e5c);
+	box-shadow:  5px 5px 9px #0e1d39, 
+             -5px -5px 9px #244993;
 
+	}
+#Projects a i{
+	color:#f3f3f3;
+	margin:7px auto;
+	font-size: 30px;
 }
 #Projects a:hover{
-	background: #ffa31a;
-	color:#0f001a;
-	border:1px solid #0f001a;
-}
-#Projects img{
-	width:100%;
-	height:50%;
-	filter: grayscale(100%);
-}
+	    background: #193366;
+	box-shadow: inset 5px 5px 4px #122549, 
+            inset -5px -5px 4px #204183;
 
+}
+#Projects .project-image{
+	width:95%;
+	height:50%;
+	border-radius: 40px;
+	margin:7px auto;
+	filter: grayscale(100%);
+	background: linear-gradient(145deg, #ffffff, #dadada);
+box-shadow:  6px 6px 12px #888888, 
+             -6px -6px 12px #ffffff;
+}
+/*--------------------------------------------------------------------Certificates Section--------------------------------------------------------------------*/
 #Certificates {
-	background: url(images/Certificates_bg.jpg);
-	background-size:cover;
-	background-repeat: no-repeat;
 	text-align: center;
 	margin:0;
 	padding: 0;
@@ -478,16 +523,24 @@ button.mfp-close, button.mfp-arrow {
 	justify-content: center;
 }
 #Certificates a{
-	color:#ffa31a;
-	border:1px solid #ffa31a;
-	font-family: 'Fresca', cursive;
-	font-weight: 800;
+	font-size: 20px;
+		font-family: 'Macondo Swash Caps',cursive;
+		background: linear-gradient(225deg, #1f3d7a,  #193366);
+		margin:auto;
+		color: #f2f2f2;
+		height:50px;
+	width:250px;
+	border:none;
+	border-radius:20px;
+	box-shadow: 
+    12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset,
+    -8px -8px 12px 0 rgba(0, 0, 0, .25) inset;
 
 }
 #Certificates a:hover{
-	background: #ffa31a;
-	color:#0f001a;
-	border:1px solid #0f001a;
+	box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
 #Certificates .swiper-container {
     height:60vh;
