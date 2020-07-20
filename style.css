@@ -94,10 +94,9 @@ nav .icon{
 	padding:9px;
 	margin:auto;
 	border-radius: 134px;
-	background: linear-gradient(145deg, #ffffff, #dadada);
-box-shadow:  8px 8px 57px #616161, 
-             -8px -8px 57px #ffffff;
-   }
+	background: linear-gradient(225deg, #dadada, #ffffff);
+box-shadow:  -5px 5px 10px #616161, 
+             5px -5px 10px #ffffff;   }
 #profile{
 	opacity: 3;
 	margin: auto;
@@ -105,7 +104,8 @@ box-shadow:  8px 8px 57px #616161,
 	width:250px;
 	border-radius: 131px;
 	border:solid 5px #3366cc;
-}
+
+	}
 
 /*----------------------------------------------------------------------------About Section-----------------------------------------------------------------*/
 #About{
@@ -402,13 +402,15 @@ button.mfp-close, button.mfp-arrow {
 	text-align: center;
 }
 #Projects .tech-stack{
-	height:20%;
+	margin-top: 5px;
+	height:180px;
 	width:95%;
+
 }
 #Projects .tech{
-	padding:2%;
-	margin:2%;
-	height:40%;
+	padding:5px;
+	margin:4px;
+	height:40px;
 	width:auto;
 	color:#193366;
 	font-family: 'Allerta Stencil', Monospace;
@@ -437,18 +439,13 @@ button.mfp-close, button.mfp-arrow {
 
 }
 #Projects .card{
-	height:70vh;
+	height:480px;
 	border:none;
 	border-radius: 40px;
 	background: #f2f2f2;
 	box-shadow: inset 6px 6px 22px #888888, 
             inset -6px -6px 22px #ffffff;
     padding: 0;
-}
-@media screen and (max-height: 750px){
-	#Projects .card{
-		height:80vh;
-	}
 }
 
 #Projects .project-content{
@@ -506,8 +503,9 @@ button.mfp-close, button.mfp-arrow {
 }
 #Projects .project-image{
 	width:95%;
-	height:50%;
+	height:200px;
 	border-radius: 40px;
+	margin-bottom: 5px;
 	margin:7px auto;
 	filter: grayscale(100%);
 	background: linear-gradient(145deg, #ffffff, #dadada);
@@ -560,46 +558,54 @@ box-shadow:  6px 6px 12px #888888,
 	font-family: 'Fascinate Inline', Monospace;
 
 }
+/*-------------------------------------------------------Contact Me----------------------------------------------------------------------------------*/
 #Contacts {
-	background: url(images/Contacts_bg.jpg);
-	background-size:cover;
-	background-repeat: no-repeat;
 	text-align: center;
 	margin:0;
 	padding: 0;
 	justify-content: center;
 }
 
-#Contacts h1{
-	color:#0f001a;
-	font-family: 'Fascinate Inline', Monospace;
-
-}
 
 #Contacts .container{
-	background: rgba(30,0,51,0.9);
+	height:auto;
 }
 #Contacts p{
-	color:whitesmoke;
+	color:#595959;
+	font-weight: 900;
+	line-height: 5px;
 }
 #Contacts .fa-circle{
-	color:#ffa31a;
+	color:#f2f2f2;
+	border-radius:10px;
+	background: linear-gradient(145deg, #dadada, #ffffff);
+box-shadow:  3px 3px 5px #a0a0a0, 
+             -3px -3px 5px #ffffff;
+    margin-bottom: 5px;
 }
 #Contacts .icon{
-	color:whitesmoke;
+	color:#595959;
 }
 #Contacts iframe{
 	margin:1%;
-	height:96%;
+	height:100%;
 	width:100%;
+	border-radius: 9px;
+background: linear-gradient(145deg, #dadada, #ffffff);
+box-shadow:  5px 5px 10px #989898, 
+             -5px -5px 10px #ffffff;
 }
 #Contacts h5{
-	color:#ffa31a;
-	font-family: 'Permanent Marker',cursive;
+	margin-top: 10px;
+	color:#193366;
+	font-family: 'Slackey',cursive;
 }
+/*------------------------------------------------------------------------------Follow Me------------------------------------------------------------------------*/
 .Follow{
-	background:whitesmoke ;
-	border:2px solid #000;
+	background:transparent;
+	background: #f2f2f2;
+box-shadow: inset -5px 5px 12px #747474, 
+            inset 5px -5px 12px #ffffff;
 	list-style: none;
 	text-align: center;
 	justify-content: center;
@@ -608,8 +614,9 @@ box-shadow:  6px 6px 12px #888888,
 	padding:0;
 }
 .Follow h4{
-	color:#000;
-	font-family: 'Permanent Marker',cursive;
+	margin-top: 10px;
+	color:#595959;
+	font-family: 'Slackey',cursive;
 
 }
 .Follow ul{
@@ -624,66 +631,32 @@ box-shadow:  6px 6px 12px #888888,
 	height:70px;
 	line-height: 70px;
 	text-align: center;
-	background-color: whitesmoke;
 	font-size: 20px;
-	margin:0 10px;
+	margin: 5px;
 	display: block;
 	border-radius: 50%;
 	position: relative;
 	overflow: hidden;
-	border:3px solid #000;
 	z-index:1;
+	background: linear-gradient(225deg, #dadada, #ffffff);
+box-shadow:  -5px 5px 10px #616161, 
+             5px -5px 10px #ffffff;
 }
 .Follow .icon{
-	color:#000;
+	color:#595959;
 	position: relative;
+	margin-top: 15px;
 	transition: .8s;
-	z-index: 3;
-
-
-}
+	}
 .Follow ul li a:hover .icon {
-  color: #fff;
   transform: rotateY(360deg);
 
 
 }
 
-.Follow ul li a:before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #f00;
-  transition: .5s;
-  z-index: 2;
-}
 
-.Follow ul li a:hover:before {
-  top: 0;
-}
-
-.Follow ul li:nth-child(1) a:before{
-  background: green;
-	border:3px solid whitesmoke;
-	border-radius: 50%;
-
-}
-
-.Follow ul li:nth-child(2) a:before{
-  background: #000;
-	border:3px solid whitesmoke;
-	border-radius: 50%;
-}
-.Follow ul li:nth-child(3) a:before {
-  background: #0077b5;
-	border:3px solid whitesmoke;
-	border-radius: 50%;
-}
 footer{
-	color:#000;
+	color:#595959;
 	font-size:15px;
 	font-family: 'Permanent Marker',cursive;
 }
