@@ -18,7 +18,7 @@
 }
 
 .circle-chart__circle {
-  stroke: rgba(30,0,51,0.9);
+  stroke: #193366;
   stroke-width: 2;
   stroke-linecap: square;
   fill: none;
@@ -69,15 +69,15 @@
 }
 
 .success-stroke {
-  stroke: #ffa31a;
+  stroke: #193366;
 }
 
 .warning-stroke {
-  stroke: #ffa31a;
+  stroke: #193366;
 }
 
 .danger-stroke {
-  stroke: #ffa31a;
+  stroke: #193366;
 }
 
 @keyframes circle-chart-fill {
